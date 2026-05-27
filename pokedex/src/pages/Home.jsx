@@ -1,8 +1,9 @@
+import PokemonList from "../components/PokemonList";
+import Grid from '@mui/material/Grid';
 export default function Home() {
   return (
-    <section>
-      <h2>Benvingut a la Pokédex</h2>
-      <p>Consulta informació dels Pokémon utilitzant la PokéAPI.</p>
+    <section className="home">
+      <PokemonList/>
     </section>
   );
 }
